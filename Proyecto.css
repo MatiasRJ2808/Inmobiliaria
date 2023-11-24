@@ -252,7 +252,7 @@ header {
 }
 
 #Footer-1 {
-    background-color: black;
+    background-color: black; 
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -302,4 +302,9 @@ header {
     color: white;
     opacity: 0.5;
     margin: 30px;
+}
+
+#Redes {
+    width: 100%;
+    height: auto;
 }
