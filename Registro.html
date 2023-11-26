@@ -9,8 +9,8 @@
 </head>
 <body>
 
-    <div class="Container">
-        <div class="Form-Content">
+    <div id="Principal">
+        <div id="Formulario">
 
             <h1 id="Titulo-1">
                 REGISTRO
@@ -18,42 +18,58 @@
 
             <form>
 
-                <div class="Input-group">
+                <div id="Lista-1">
 
-                    <div class="Input-field" id="NameInput">
+                    <div class="Informacion" id="NameInput">
 
-                        <i class="fa-solid fa-user"> </i>
-                        <input type="text" placeholder="Nombre">
-
-                    </div>
-
-                    <div class="Input-field">
-
-                        <i class="fa-solid fa-envelope"> </i>
-                        <input type="email" placeholder="Correo">
+                        <i id="Icono" class="fa-solid fa-circle-user"> </i>
+                        <input type="text" placeholder="Nombres" required>
 
                     </div>
 
-                    <div class="Input-field">
+                    <div class="Informacion" id="NameInput">
 
-                        <i class="fa-solid fa-lock"> </i>
-                        <input type="password" placeholder="Contraseña">
+                        <i id="Icono" class="fa-solid fa-user"> </i>
+                        <input type="text" placeholder="Apellidos" required>
+
+                    </div>
+
+                    <div class="Informacion" id="NameInput">
+
+                        <i id="Icono" class="fa-solid fa-eye"> </i>
+                        <select name="Genero" id="Sexo">
+                            
+                            <option> Seleccione Un Género </option>
+                            <option> Masculino </option>
+                            <option> Femenino </option>
+                        </select>
+
+                    </div>
+
+                    <div class="Informacion">
+
+                        <i id="Icono" class="fa-solid fa-envelope"> </i>
+                        <input type="email" placeholder="Correo" required>
+
+                    </div>
+
+                    <div class="Informacion">
+
+                        <i id="Icono" class="fa-solid fa-lock"> </i>
+                        <input type="password" placeholder="Contraseña" required>
 
                     </div>
 
                 </div>
 
-                <div class="Btn-field">
-                    <button id="Sing-UP" type="button"> Registro </button>
-                    <button id="Sing-In" type="button" class="Disable"> </button>
+                <div id="Boton">
+                    <input id="Sing-Up" type="submit"> </input>
                 </div>
 
             </form>
 
         </div>
     </div>
-    
-    <script>src="Script.js"</script>
 
 </body>
-</html>
+</html> 

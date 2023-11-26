@@ -73,7 +73,7 @@ header {
     background-color: white;
     width: 80%;
     height: 60vh;
-    box-shadow: 3px 3px 4px 3px rgb(22, 129, 222);
+    box-shadow: 3px 3px 4px 3px rgb(22, 129, 222); /* X - Y - Difuminacion - Expanda - Color */
 }
 
 #Texto-1 {
