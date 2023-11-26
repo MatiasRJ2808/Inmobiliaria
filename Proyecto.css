@@ -26,11 +26,14 @@ header {
     background-color: rgb(43, 43, 43);
     list-style: none;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
     width: 60%;
 }
 
-#Menu li{
+#Menu li {
     display: inline-flex; /* Colocar La Lista En Horizontal */
+    margin-left: 40px;
 }
 
 #Menu a{
@@ -40,8 +43,14 @@ header {
     width: 150px;
 }
 
-#Menu li:hover{ /*Cambiar Color En Selección*/
-    background-color: rgb(27, 186, 186);
+#Pagina-2 {
+    margin-right: 40px;
+    background-color: rgb(40, 114, 199);
+    border-radius: 5px;
+}
+
+.Item-1:hover{ /* Cambiar Color En Selección */
+    background-color: rgb(27, 186, 186); 
     border-radius: 5px;
 }
 
@@ -252,7 +261,7 @@ header {
 }
 
 #Footer-1 {
-    background-color: black; 
+    background-color: black;  
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -264,7 +273,21 @@ header {
 }
 
 #Redes {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Logo {
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.Logo:hover {
+    color: red;
 }
 
 .Parrafo-3 {
@@ -290,6 +313,11 @@ header {
 
 #Correo-1 {
     color: rgb(0, 255, 247);
+    cursor: pointer;
+}
+
+#Correo-1:hover {
+    color: red;
 }
 
 #Copyright {

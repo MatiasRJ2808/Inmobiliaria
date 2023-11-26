@@ -23,14 +23,14 @@
                     <div class="Informacion" id="NameInput">
 
                         <i id="Icono" class="fa-solid fa-circle-user"> </i>
-                        <input type="text" placeholder="Nombres" required>
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
 
                     </div>
 
                     <div class="Informacion" id="NameInput">
 
                         <i id="Icono" class="fa-solid fa-user"> </i>
-                        <input type="text" placeholder="Apellidos" required>
+                        <input type="text" name="Apellido" placeholder="Apellido" required>
 
                     </div>
 
@@ -49,24 +49,26 @@
                     <div class="Informacion">
 
                         <i id="Icono" class="fa-solid fa-envelope"> </i>
-                        <input type="email" placeholder="Correo" required>
+                        <input type="email" name="Correo" placeholder="Correo" required>
 
                     </div>
 
                     <div class="Informacion">
 
                         <i id="Icono" class="fa-solid fa-lock"> </i>
-                        <input type="password" placeholder="Contraseña" required>
+                        <input type="password" name="Contraseña" placeholder="Contraseña" required>
 
                     </div>
 
                 </div>
 
                 <div id="Boton">
-                    <input id="Sing-Up" type="submit"> </input>
+                    <input id="Sing-Up" type="submit" onclick="guardarInformacion()"> </input>
                 </div>
 
             </form>
+
+            <script> src="Script.js" </script>
 
         </div>
     </div>
