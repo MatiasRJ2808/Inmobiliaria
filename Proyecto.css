@@ -294,7 +294,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 40px;
+    line-height: 40px; /* Altura De Cada Linea De Parrafos */
     width: 100%;
     color: white;
 }
