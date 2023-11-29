@@ -62,7 +62,7 @@ header {
 }
 
 #Separador-1 {
-    background-color: rgb(116, 182, 248);
+    background-color: rgb(116, 248, 246);
     border-radius: 6px;
     border: 3px black solid;
     text-align: center;
@@ -82,7 +82,7 @@ header {
     background-color: white;
     width: 80%;
     height: 60vh;
-    box-shadow: 3px 3px 4px 3px rgb(22, 129, 222); /* X - Y - Difuminacion - Expanda - Color */
+    box-shadow: 3px 3px 4px 3px rgb(116, 248, 246); /* X - Y - Difuminacion - Expanda - Color */
 }
 
 #Texto-1 {
@@ -131,7 +131,7 @@ header {
 }
 
 #Separador-2 {
-    background-color: rgb(211, 248, 116);
+    background-color: rgb(116, 182, 248);
     border-radius: 6px;
     border: 3px black solid;
     text-align: center;
@@ -148,7 +148,7 @@ header {
     background-color: white;
     width: 80%;
     height: 60vh;
-    box-shadow: 3px 3px 4px 3px rgb(211, 248, 116);
+    box-shadow: 3px 3px 4px 3px rgb(116, 182, 248);
 }
 
 .Tarjeta {
@@ -213,7 +213,7 @@ header {
 }
 
 #Separador-3 {
-    background-color: rgb(103, 226, 190);
+    background-color: rgb(116, 248, 246);
     border-radius: 6px;
     border: 3px black solid;
     text-align: center;
@@ -230,7 +230,7 @@ header {
     background-color: white;
     width: 80%;
     height: 40vh;
-    box-shadow: 3px 3px 4px 3px rgb(103, 226, 190);
+    box-shadow: 3px 3px 4px 3px rgb(116, 248, 246);
 }
 
 #Caja-1 {
@@ -245,7 +245,7 @@ header {
 .Imagen-1 {
     width: 40vh;
     border: 2px black solid;
-    box-shadow: 2px 2px 8px 4px rgb(103, 226, 190);
+    box-shadow: 2px 2px 8px 4px rgb(116, 248, 246);
     transition: all 200ms ease;
 }
 
@@ -286,7 +286,18 @@ header {
     cursor: pointer;
 }
 
+#Ubicacion-1 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
 .Logo:hover {
+    color: red;
+}
+
+#Ubicacion-1:hover {
     color: red;
 }
 
