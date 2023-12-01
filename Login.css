@@ -17,6 +17,7 @@
     width: 30%;
     height: 30vh;
     background-color: white;
+    box-shadow: 3px 3px 10px 4px rgb(246, 153, 53);
     padding: 50px 60px 70px; /* Arriba - Izquierda y Derecha - Abajo */
     text-align: center;
     border-radius: 25px;
@@ -34,7 +35,7 @@ h1::after {
     width: 100px;
     height: 4px;
     border-radius: 3px;
-    background: rgb(246, 53, 53);
+    background: rgb(246, 153, 53);
     position: absolute;
     bottom: -12px; 
     left: 50%;

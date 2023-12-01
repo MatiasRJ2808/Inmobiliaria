@@ -75,7 +75,7 @@ input::placeholder {
     justify-content: center;
 }
 
-/* #Sing-Up {
+/* #Confirmacion-1 {
     margin: 0px 40px;
     border-radius: 30px;
     background-color: rgb(0, 0, 0);
@@ -83,7 +83,7 @@ input::placeholder {
     cursor: pointer;
 } */
 
-#Sing-Up {
+#Confirmacion-2 {
     color: white;
     background-color: black;
     padding: 15px 60px;
